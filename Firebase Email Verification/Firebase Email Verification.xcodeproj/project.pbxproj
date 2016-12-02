@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54D371822168459B5277E800 /* Pods_Firebase_Email_Verification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F368B007CA4C096DCDAABD7 /* Pods_Firebase_Email_Verification.framework */; };
+		B210A28F1DF196FA00E2A0AD /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210A28E1DF196FA00E2A0AD /* HelpVC.swift */; };
 		B27FDA6F1DF14B7A00C0CC6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FDA6E1DF14B7A00C0CC6D /* Extensions.swift */; };
 		B2DD331A1DF0EDC200EC1FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD33191DF0EDC200EC1FCE /* AppDelegate.swift */; };
 		B2DD331C1DF0EDC200EC1FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD331B1DF0EDC200EC1FCE /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		7C0F52E3D5733010961E1188 /* Pods-Firebase Email VerificationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email VerificationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email VerificationUITests/Pods-Firebase Email VerificationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		91D216E955BEB6707BD8CEFA /* Pods-Firebase Email VerificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email VerificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email VerificationTests/Pods-Firebase Email VerificationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		92BCD77C4B790BAFA6A5093E /* Pods-Firebase Email Verification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email Verification.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email Verification/Pods-Firebase Email Verification.release.xcconfig"; sourceTree = "<group>"; };
+		B210A28E1DF196FA00E2A0AD /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
 		B27FDA6E1DF14B7A00C0CC6D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B2DD33161DF0EDC200EC1FCE /* Firebase Email Verification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Email Verification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DD33191DF0EDC200EC1FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				B2DD33191DF0EDC200EC1FCE /* AppDelegate.swift */,
 				B2DD331B1DF0EDC200EC1FCE /* ViewController.swift */,
+				B210A28E1DF196FA00E2A0AD /* HelpVC.swift */,
 				B27FDA6E1DF14B7A00C0CC6D /* Extensions.swift */,
 				B2DD331D1DF0EDC200EC1FCE /* Main.storyboard */,
 				B2DD33201DF0EDC200EC1FCE /* Assets.xcassets */,
@@ -441,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2DD331C1DF0EDC200EC1FCE /* ViewController.swift in Sources */,
+				B210A28F1DF196FA00E2A0AD /* HelpVC.swift in Sources */,
 				B27FDA6F1DF14B7A00C0CC6D /* Extensions.swift in Sources */,
 				B2DD331A1DF0EDC200EC1FCE /* AppDelegate.swift in Sources */,
 			);
