@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54D371822168459B5277E800 /* Pods_Firebase_Email_Verification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F368B007CA4C096DCDAABD7 /* Pods_Firebase_Email_Verification.framework */; };
+		B27FDA6F1DF14B7A00C0CC6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27FDA6E1DF14B7A00C0CC6D /* Extensions.swift */; };
+		B2DD331A1DF0EDC200EC1FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD33191DF0EDC200EC1FCE /* AppDelegate.swift */; };
+		B2DD331C1DF0EDC200EC1FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD331B1DF0EDC200EC1FCE /* ViewController.swift */; };
+		B2DD331F1DF0EDC200EC1FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DD331D1DF0EDC200EC1FCE /* Main.storyboard */; };
+		B2DD33211DF0EDC200EC1FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DD33201DF0EDC200EC1FCE /* Assets.xcassets */; };
+		B2DD33241DF0EDC200EC1FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DD33221DF0EDC200EC1FCE /* LaunchScreen.storyboard */; };
+		B2DD332F1DF0EDC300EC1FCE /* Firebase_Email_VerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD332E1DF0EDC300EC1FCE /* Firebase_Email_VerificationTests.swift */; };
+		B2DD333A1DF0EDC300EC1FCE /* Firebase_Email_VerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD33391DF0EDC300EC1FCE /* Firebase_Email_VerificationUITests.swift */; };
+		B2DD33481DF0F17800EC1FCE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2DD33471DF0F17800EC1FCE /* GoogleService-Info.plist */; };
+		D76859375B6F7DC56F1A3919 /* Pods_Firebase_Email_VerificationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0BDC6441EF73F081F83AAB /* Pods_Firebase_Email_VerificationTests.framework */; };
+		DC77718B5241569DEEFC6434 /* Pods_Firebase_Email_VerificationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578BD0E62B3D629F00EF3919 /* Pods_Firebase_Email_VerificationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2DD332B1DF0EDC300EC1FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2DD330E1DF0EDC200EC1FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DD33151DF0EDC200EC1FCE;
+			remoteInfo = "Firebase Email Verification";
+		};
+		B2DD33361DF0EDC300EC1FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2DD330E1DF0EDC200EC1FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DD33151DF0EDC200EC1FCE;
+			remoteInfo = "Firebase Email Verification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		578BD0E62B3D629F00EF3919 /* Pods_Firebase_Email_VerificationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Email_VerificationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F368B007CA4C096DCDAABD7 /* Pods_Firebase_Email_Verification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Email_Verification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643DEE80AA4794CD0A5810C0 /* Pods-Firebase Email VerificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email VerificationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email VerificationTests/Pods-Firebase Email VerificationTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BAA3D4F3AD3E78A4737565D /* Pods-Firebase Email Verification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email Verification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email Verification/Pods-Firebase Email Verification.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0F52E3D5733010961E1188 /* Pods-Firebase Email VerificationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email VerificationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email VerificationUITests/Pods-Firebase Email VerificationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91D216E955BEB6707BD8CEFA /* Pods-Firebase Email VerificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email VerificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email VerificationTests/Pods-Firebase Email VerificationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92BCD77C4B790BAFA6A5093E /* Pods-Firebase Email Verification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email Verification.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email Verification/Pods-Firebase Email Verification.release.xcconfig"; sourceTree = "<group>"; };
+		B27FDA6E1DF14B7A00C0CC6D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B2DD33161DF0EDC200EC1FCE /* Firebase Email Verification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Email Verification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DD33191DF0EDC200EC1FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2DD331B1DF0EDC200EC1FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2DD331E1DF0EDC200EC1FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2DD33201DF0EDC200EC1FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2DD33231DF0EDC200EC1FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2DD33251DF0EDC200EC1FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DD332A1DF0EDC300EC1FCE /* Firebase Email VerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase Email VerificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DD332E1DF0EDC300EC1FCE /* Firebase_Email_VerificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Email_VerificationTests.swift; sourceTree = "<group>"; };
+		B2DD33301DF0EDC300EC1FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DD33351DF0EDC300EC1FCE /* Firebase Email VerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase Email VerificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DD33391DF0EDC300EC1FCE /* Firebase_Email_VerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Email_VerificationUITests.swift; sourceTree = "<group>"; };
+		B2DD333B1DF0EDC300EC1FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DD33471DF0F17800EC1FCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE0BDC6441EF73F081F83AAB /* Pods_Firebase_Email_VerificationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Email_VerificationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75EB56D9CFD0A80E9D4A11 /* Pods-Firebase Email VerificationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email VerificationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email VerificationUITests/Pods-Firebase Email VerificationUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2DD33131DF0EDC200EC1FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D371822168459B5277E800 /* Pods_Firebase_Email_Verification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DD33271DF0EDC300EC1FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76859375B6F7DC56F1A3919 /* Pods_Firebase_Email_VerificationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DD33321DF0EDC300EC1FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC77718B5241569DEEFC6434 /* Pods_Firebase_Email_VerificationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE1E4E0C3800C4161CCDF4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F368B007CA4C096DCDAABD7 /* Pods_Firebase_Email_Verification.framework */,
+				DE0BDC6441EF73F081F83AAB /* Pods_Firebase_Email_VerificationTests.framework */,
+				578BD0E62B3D629F00EF3919 /* Pods_Firebase_Email_VerificationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B9491242231E077621FFE91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BAA3D4F3AD3E78A4737565D /* Pods-Firebase Email Verification.debug.xcconfig */,
+				92BCD77C4B790BAFA6A5093E /* Pods-Firebase Email Verification.release.xcconfig */,
+				91D216E955BEB6707BD8CEFA /* Pods-Firebase Email VerificationTests.debug.xcconfig */,
+				643DEE80AA4794CD0A5810C0 /* Pods-Firebase Email VerificationTests.release.xcconfig */,
+				7C0F52E3D5733010961E1188 /* Pods-Firebase Email VerificationUITests.debug.xcconfig */,
+				FB75EB56D9CFD0A80E9D4A11 /* Pods-Firebase Email VerificationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2DD330D1DF0EDC200EC1FCE = {
+			isa = PBXGroup;
+			children = (
+				B2DD33181DF0EDC200EC1FCE /* Firebase Email Verification */,
+				B2DD332D1DF0EDC300EC1FCE /* Firebase Email VerificationTests */,
+				B2DD33381DF0EDC300EC1FCE /* Firebase Email VerificationUITests */,
+				B2DD33171DF0EDC200EC1FCE /* Products */,
+				3B9491242231E077621FFE91 /* Pods */,
+				0FE1E4E0C3800C4161CCDF4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2DD33171DF0EDC200EC1FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD33161DF0EDC200EC1FCE /* Firebase Email Verification.app */,
+				B2DD332A1DF0EDC300EC1FCE /* Firebase Email VerificationTests.xctest */,
+				B2DD33351DF0EDC300EC1FCE /* Firebase Email VerificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2DD33181DF0EDC200EC1FCE /* Firebase Email Verification */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD33191DF0EDC200EC1FCE /* AppDelegate.swift */,
+				B2DD331B1DF0EDC200EC1FCE /* ViewController.swift */,
+				B27FDA6E1DF14B7A00C0CC6D /* Extensions.swift */,
+				B2DD331D1DF0EDC200EC1FCE /* Main.storyboard */,
+				B2DD33201DF0EDC200EC1FCE /* Assets.xcassets */,
+				B2DD33221DF0EDC200EC1FCE /* LaunchScreen.storyboard */,
+				B2DD33471DF0F17800EC1FCE /* GoogleService-Info.plist */,
+				B2DD33251DF0EDC200EC1FCE /* Info.plist */,
+			);
+			path = "Firebase Email Verification";
+			sourceTree = "<group>";
+		};
+		B2DD332D1DF0EDC300EC1FCE /* Firebase Email VerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD332E1DF0EDC300EC1FCE /* Firebase_Email_VerificationTests.swift */,
+				B2DD33301DF0EDC300EC1FCE /* Info.plist */,
+			);
+			path = "Firebase Email VerificationTests";
+			sourceTree = "<group>";
+		};
+		B2DD33381DF0EDC300EC1FCE /* Firebase Email VerificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD33391DF0EDC300EC1FCE /* Firebase_Email_VerificationUITests.swift */,
+				B2DD333B1DF0EDC300EC1FCE /* Info.plist */,
+			);
+			path = "Firebase Email VerificationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2DD33151DF0EDC200EC1FCE /* Firebase Email Verification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DD333E1DF0EDC300EC1FCE /* Build configuration list for PBXNativeTarget "Firebase Email Verification" */;
+			buildPhases = (
+				CDDAB976D2B6AEB9E1DA9604 /* [CP] Check Pods Manifest.lock */,
+				B2DD33121DF0EDC200EC1FCE /* Sources */,
+				B2DD33131DF0EDC200EC1FCE /* Frameworks */,
+				B2DD33141DF0EDC200EC1FCE /* Resources */,
+				E01B87B20418DFD3B7B926C2 /* [CP] Embed Pods Frameworks */,
+				0477199C855EDD71587545FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase Email Verification";
+			productName = "Firebase Email Verification";
+			productReference = B2DD33161DF0EDC200EC1FCE /* Firebase Email Verification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2DD33291DF0EDC300EC1FCE /* Firebase Email VerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DD33411DF0EDC300EC1FCE /* Build configuration list for PBXNativeTarget "Firebase Email VerificationTests" */;
+			buildPhases = (
+				A6D3E5707AB49D344390DA9E /* [CP] Check Pods Manifest.lock */,
+				B2DD33261DF0EDC300EC1FCE /* Sources */,
+				B2DD33271DF0EDC300EC1FCE /* Frameworks */,
+				B2DD33281DF0EDC300EC1FCE /* Resources */,
+				6D71CD89BD86A78D121326AF /* [CP] Embed Pods Frameworks */,
+				7635E094679CAAA4CD22C54B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DD332C1DF0EDC300EC1FCE /* PBXTargetDependency */,
+			);
+			name = "Firebase Email VerificationTests";
+			productName = "Firebase Email VerificationTests";
+			productReference = B2DD332A1DF0EDC300EC1FCE /* Firebase Email VerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2DD33341DF0EDC300EC1FCE /* Firebase Email VerificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DD33441DF0EDC300EC1FCE /* Build configuration list for PBXNativeTarget "Firebase Email VerificationUITests" */;
+			buildPhases = (
+				29A5B1FE93E268E774BB823C /* [CP] Check Pods Manifest.lock */,
+				B2DD33311DF0EDC300EC1FCE /* Sources */,
+				B2DD33321DF0EDC300EC1FCE /* Frameworks */,
+				B2DD33331DF0EDC300EC1FCE /* Resources */,
+				ABB5E64228E44D196F00B684 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DD33371DF0EDC300EC1FCE /* PBXTargetDependency */,
+			);
+			name = "Firebase Email VerificationUITests";
+			productName = "Firebase Email VerificationUITests";
+			productReference = B2DD33351DF0EDC300EC1FCE /* Firebase Email VerificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2DD330E1DF0EDC200EC1FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Emil Shirima";
+				TargetAttributes = {
+					B2DD33151DF0EDC200EC1FCE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F5JF5HGSGV;
+						ProvisioningStyle = Automatic;
+					};
+					B2DD33291DF0EDC300EC1FCE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F5JF5HGSGV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2DD33151DF0EDC200EC1FCE;
+					};
+					B2DD33341DF0EDC300EC1FCE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F5JF5HGSGV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2DD33151DF0EDC200EC1FCE;
+					};
+				};
+			};
+			buildConfigurationList = B2DD33111DF0EDC200EC1FCE /* Build configuration list for PBXProject "Firebase Email Verification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2DD330D1DF0EDC200EC1FCE;
+			productRefGroup = B2DD33171DF0EDC200EC1FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2DD33151DF0EDC200EC1FCE /* Firebase Email Verification */,
+				B2DD33291DF0EDC300EC1FCE /* Firebase Email VerificationTests */,
+				B2DD33341DF0EDC300EC1FCE /* Firebase Email VerificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2DD33141DF0EDC200EC1FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DD33241DF0EDC200EC1FCE /* LaunchScreen.storyboard in Resources */,
+				B2DD33481DF0F17800EC1FCE /* GoogleService-Info.plist in Resources */,
+				B2DD33211DF0EDC200EC1FCE /* Assets.xcassets in Resources */,
+				B2DD331F1DF0EDC200EC1FCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DD33281DF0EDC300EC1FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DD33331DF0EDC300EC1FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0477199C855EDD71587545FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email Verification/Pods-Firebase Email Verification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29A5B1FE93E268E774BB823C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D71CD89BD86A78D121326AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email VerificationTests/Pods-Firebase Email VerificationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7635E094679CAAA4CD22C54B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email VerificationTests/Pods-Firebase Email VerificationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D3E5707AB49D344390DA9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB5E64228E44D196F00B684 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email VerificationUITests/Pods-Firebase Email VerificationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDAB976D2B6AEB9E1DA9604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E01B87B20418DFD3B7B926C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email Verification/Pods-Firebase Email Verification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2DD33121DF0EDC200EC1FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DD331C1DF0EDC200EC1FCE /* ViewController.swift in Sources */,
+				B27FDA6F1DF14B7A00C0CC6D /* Extensions.swift in Sources */,
+				B2DD331A1DF0EDC200EC1FCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DD33261DF0EDC300EC1FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DD332F1DF0EDC300EC1FCE /* Firebase_Email_VerificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DD33311DF0EDC300EC1FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DD333A1DF0EDC300EC1FCE /* Firebase_Email_VerificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2DD332C1DF0EDC300EC1FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2DD33151DF0EDC200EC1FCE /* Firebase Email Verification */;
+			targetProxy = B2DD332B1DF0EDC300EC1FCE /* PBXContainerItemProxy */;
+		};
+		B2DD33371DF0EDC300EC1FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2DD33151DF0EDC200EC1FCE /* Firebase Email Verification */;
+			targetProxy = B2DD33361DF0EDC300EC1FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2DD331D1DF0EDC200EC1FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DD331E1DF0EDC200EC1FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2DD33221DF0EDC200EC1FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DD33231DF0EDC200EC1FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2DD333C1DF0EDC300EC1FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2DD333D1DF0EDC300EC1FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2DD333F1DF0EDC300EC1FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAA3D4F3AD3E78A4737565D /* Pods-Firebase Email Verification.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5JF5HGSGV;
+				INFOPLIST_FILE = "Firebase Email Verification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emil-Shirima.Firebase-Email-Verification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2DD33401DF0EDC300EC1FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BCD77C4B790BAFA6A5093E /* Pods-Firebase Email Verification.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5JF5HGSGV;
+				INFOPLIST_FILE = "Firebase Email Verification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emil-Shirima.Firebase-Email-Verification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B2DD33421DF0EDC300EC1FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D216E955BEB6707BD8CEFA /* Pods-Firebase Email VerificationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F5JF5HGSGV;
+				INFOPLIST_FILE = "Firebase Email VerificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emil-Shirima.Firebase-Email-VerificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Email Verification.app/Firebase Email Verification";
+			};
+			name = Debug;
+		};
+		B2DD33431DF0EDC300EC1FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643DEE80AA4794CD0A5810C0 /* Pods-Firebase Email VerificationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F5JF5HGSGV;
+				INFOPLIST_FILE = "Firebase Email VerificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emil-Shirima.Firebase-Email-VerificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Email Verification.app/Firebase Email Verification";
+			};
+			name = Release;
+		};
+		B2DD33451DF0EDC300EC1FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0F52E3D5733010961E1188 /* Pods-Firebase Email VerificationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F5JF5HGSGV;
+				INFOPLIST_FILE = "Firebase Email VerificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emil-Shirima.Firebase-Email-VerificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Firebase Email Verification";
+			};
+			name = Debug;
+		};
+		B2DD33461DF0EDC300EC1FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB75EB56D9CFD0A80E9D4A11 /* Pods-Firebase Email VerificationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F5JF5HGSGV;
+				INFOPLIST_FILE = "Firebase Email VerificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emil-Shirima.Firebase-Email-VerificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Firebase Email Verification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2DD33111DF0EDC200EC1FCE /* Build configuration list for PBXProject "Firebase Email Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DD333C1DF0EDC300EC1FCE /* Debug */,
+				B2DD333D1DF0EDC300EC1FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DD333E1DF0EDC300EC1FCE /* Build configuration list for PBXNativeTarget "Firebase Email Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DD333F1DF0EDC300EC1FCE /* Debug */,
+				B2DD33401DF0EDC300EC1FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DD33411DF0EDC300EC1FCE /* Build configuration list for PBXNativeTarget "Firebase Email VerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DD33421DF0EDC300EC1FCE /* Debug */,
+				B2DD33431DF0EDC300EC1FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DD33441DF0EDC300EC1FCE /* Build configuration list for PBXNativeTarget "Firebase Email VerificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DD33451DF0EDC300EC1FCE /* Debug */,
+				B2DD33461DF0EDC300EC1FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2DD330E1DF0EDC200EC1FCE /* Project object */;
+}
